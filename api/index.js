@@ -11,7 +11,7 @@ const passport = require("./auth/passport");
 const app = express();
 
 // require db
-const db = require("./db/connect");
+const db = require("./db/connect-prod");
 
 app.use(express.static(path.join(__dirname, "Sockets")));
 

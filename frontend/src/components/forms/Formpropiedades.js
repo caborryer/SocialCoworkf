@@ -114,7 +114,6 @@ function Formpropiedades(props) {
                     <label for="tipo">Tipo</label>
                     <select
                       name="tipoPropiedadId"
-                      required
                       id="titulo"
                       className="custom-select mb-3"
                       onChange={actualizarState}

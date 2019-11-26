@@ -1,17 +1,17 @@
-const Sequelize = require('sequelize');
-const db = require('./../db/connect');
+const Sequelize = require("sequelize");
+const db = require("./../db/connect-prod");
 
-const Servicios = db.define('servicios', {
- id_servicio: {
-     type: Sequelize.INTEGER,
-     autoIncrement: true,
-     primaryKey: true
- },
- nombre: Sequelize.STRING,
- estado: {
-     type: Sequelize.INTEGER,
-     defaultValue: 0
- }
+const Servicios = db.define("servicios", {
+  id_servicio: {
+    type: Sequelize.INTEGER,
+    autoIncrement: true,
+    primaryKey: true
+  },
+  nombre: Sequelize.STRING,
+  estado: {
+    type: Sequelize.INTEGER,
+    defaultValue: 0
+  }
 });
 
 module.exports = Servicios;

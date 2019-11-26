@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const db = require("./../db/connect.js");
+const db = require("./../db/connect-prod");
 const TipoPropiedad = require("./TipoPropiedad");
 const Servicios = require("./Servicios");
 
