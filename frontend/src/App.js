@@ -17,7 +17,7 @@ import Recuperar from "./components/Recuperar";
 import Email from "./components/Email/Email";
 import Formdash from "./components/forms/Formdash";
 import EditarPropiedad from "./components/forms/EditarPropiedad";
-import Propiedad from "./components/forms/EliminarPropiedad";
+// import Propiedad from "./components/forms/EliminarPropiedad";
 
 import "./animated.css";
 import "./App.scss";
@@ -77,7 +77,7 @@ class App extends React.Component {
                   path="/EditarPropiedad"
                   component={EditarPropiedad}
                 />
-                <Route exact path="/EliminarPropiedad" component={Propiedad} />
+                {/* <Route exact path="/EliminarPropiedad" component={Propiedad} /> */}
 
                 {/*Dashboard */}
 
